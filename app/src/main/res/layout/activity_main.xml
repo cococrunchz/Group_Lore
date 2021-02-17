@@ -4,29 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TITLE"
+        android:id="@+id/titlee"
+        android:layout_width="355dp"
+        android:layout_height="225dp"
+        android:fontFamily="@font/retrogaming"
+        android:text="  Adventures \n       of an\n    ORDINARY \n    STUDENT!"
+        android:textSize="40dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.457" />
+        app:layout_constraintVertical_bias="0.523" />
 
     <Button
         android:id="@+id/btn_start"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_width="128dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/retrogaming"
         android:text="Start"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/titlee"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/titlee"
+        app:layout_constraintTop_toBottomOf="@+id/titlee" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="267dp"
+        android:layout_height="231dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068"
+        app:srcCompat="@drawable/flower" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

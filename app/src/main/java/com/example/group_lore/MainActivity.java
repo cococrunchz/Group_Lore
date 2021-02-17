@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button start = findViewById(R.id.btn_start);
 
+
         start.setOnClickListener(this);
 
     }
@@ -24,8 +25,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Intent i = new Intent(MainActivity.this,page_1.class);
         startActivity(i);
-
-
 
     }
 }

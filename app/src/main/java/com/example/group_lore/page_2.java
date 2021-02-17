@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,11 +18,6 @@ public class page_2 extends AppCompatActivity implements View.OnClickListener {
 
         back.setOnClickListener(this);
 
-        TextView desc = findViewById(R.id.txtview);
-
-        desc.setText("Your stomach feels very queasy right after eating that sandwich, " +
-                "just what was in that thing? You felt very sick and ended up not going to school." +
-                " (End, return to start)");
     }
     @Override
     public void onClick(View view){

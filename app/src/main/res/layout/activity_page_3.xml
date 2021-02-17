@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffdfd3"
     tools:context=".page_3">
 
     <TextView
@@ -11,31 +12,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:fontFamily="@font/retrogaming"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.456" />
+        app:layout_constraintVertical_bias="0.761" />
 
     <Button
         android:id="@+id/gotoschool"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="148dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="432dp"
         android:text="ignore it and go to school"
-        app:layout_constraintEnd_toEndOf="@+id/pet"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="@+id/pet"
-        app:layout_constraintTop_toBottomOf="@+id/pet" />
+        android:fontFamily="@font/retrogaming"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toEndOf="@+id/pet"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/pet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_width="148dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="432dp"
         android:text="pet "
-        app:layout_constraintEnd_toEndOf="@+id/txtvieww"
-        app:layout_constraintStart_toStartOf="@+id/txtvieww"
-        app:layout_constraintTop_toBottomOf="@+id/txtvieww" />
+        android:fontFamily="@font/retrogaming"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="314dp"
+        android:layout_height="318dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/catneutral" />
 </androidx.constraintlayout.widget.ConstraintLayout>

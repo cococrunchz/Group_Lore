@@ -4,27 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".page_2">
 
     <TextView
         android:id="@+id/txtview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
+        android:layout_width="401dp"
+        android:layout_height="95dp"
+        android:layout_marginBottom="120dp"
+        android:fontFamily="@font/retrogaming"
+        android:text="Your stomach feels very queasy right after eating that sandwich, just what was in that thing? You felt very sick and ended up not going to school. (End, return to start)"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.436" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/retrogaming"
         android:text="Back to start"
-        app:layout_constraintEnd_toEndOf="@+id/txtview"
-        app:layout_constraintStart_toStartOf="@+id/txtview"
-        app:layout_constraintTop_toBottomOf="@+id/txtview" />
+        app:layout_constraintBottom_toTopOf="@+id/txtview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="279dp"
+        android:layout_height="282dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.34"
+        app:srcCompat="@drawable/barfbag" />
 </androidx.constraintlayout.widget.ConstraintLayout>
